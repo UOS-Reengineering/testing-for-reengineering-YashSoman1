@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "testRun2",
+      "setup": "",
+      "run": "mvn test -Dtest=TestSimulator#testRun2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "testPrintPath",
+      "setup": "",
+      "run": "mvn test -Dtest=TestADS#testPrintPath",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "testCheckCollisionViolations",
+      "setup": "",
+      "run": "mvn test -Dtest=TestChecker#testCheckCollisionViolations",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "testEquality",
+      "setup": "",
+      "run": "mvn test -Dtest=TestScenario#testEquality",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    }
+  ]
+}
